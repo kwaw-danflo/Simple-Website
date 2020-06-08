@@ -1,0 +1,255 @@
+mnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body {
+    background: #efeff5;
+    font-family:  'Rajdhani', sans-serif;
+    
+}
+
+.home-body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    height: 40px;
+}
+
+nav ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: rgb(213, 216, 220);
+}
+
+.page-wrap {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    margin: 5% 10% 5% 10%;
+    box-shadow: 10px 10px 15px #ABB2B9;
+}
+
+
+ h1 {
+    text-align: center;
+}
+.Active {
+    background: rgb(213, 216, 220);
+}
+.image-section {
+    background: white;
+    margin: 0 auto;
+    height: 305px;
+    width: 700px;
+    margin-bottom: 10px ! important;
+}
+.image-style {
+    width: 80%;
+    height: 200px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.home-section {
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+/* .course-section{
+    background: #efeff5;
+    height:305px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+ }*/
+.inner-div {
+    padding: 50px;
+    margin: auto
+}
+.h1-header {
+    text-align: center;
+    color: #EFEBE9;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 50pt;
+    width: 65%;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.h1-headera {
+    text-align: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 50pt;
+    width: 65%;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 320px;
+}
+.section-inner {
+    width: 80%;
+    padding: 2%;
+    text-align: center;
+    margin-left: 50px;
+}
+.inner-part-div {
+    width: 50%;
+    float: left;
+}
+
+
+/*.h6-header {
+    text-align: center;
+    color: #EFEBE9;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 65%;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 50px;
+}*/
+/*
+.about-body{
+    background: url(codeonmac.jpg)!impotant;
+    background-position: center!important; 
+    background-size: cover !important;
+}
+*/
+
+.special-section
+{
+     height: 500px;
+     width: 100%;
+     display: block;
+     padding: 0px;
+     margin: 30px 50px;
+}
+.special-inner-div
+{
+   
+     width: 30%;
+    float: left ;
+    height: 400px;
+/*    margin: 10px;*/
+    padding: 10px;
+    text-align: center;
+    background: #004e92;
+    color: white;
+    margin-right: 4px;
+}
+
+.border-right
+{   border-top: 3px solid #5499C7 ;
+    border-right: 3px solid #5499C7 ;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid #5499C7 ;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 15px #ABB2B9;
+}
+
+
+.my-btn
+
+{ 
+    border: 2px solid  #004e92;
+    border-radius: 8px;
+    cursor: pointer;
+     width:80px;
+    background:#004e92;
+    margin-left:20px;
+    height: 30px;
+    color:white;
+}
+
+.my-btn:hover ,.my-btn:click
+{
+    cursor: pointer;
+    background: white;
+    color: #004e92;
+    outline: inherit;
+}
+
+
+.my-footer
+{   
+    background: #5499C7;
+        height: 50px;
+     width: 100% !important;
+     display: block;
+     padding: 0px;
+        
+}
+
+.my-footer ul li 
+{
+      float: left;
+      list-style-type: none;
+}
+.my-footer ul li a
+{   font-size:20px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+form
+{
+    width: 600px;
+   margin: 80px auto;
+    
+    
+ 
+}
+ input
+{
+    display: block ;
+    margin: 20px !important;
+    padding: 10px !important;
+    border: 2px solid #004e92 !important;
+    border-radius: 14px;
+    width: 400px;
+    outline: none;
+}
+
+textarea
+{
+    display: block ;
+    margin: 20px !important;
+    padding: 10px !important;
+    border: 2px solid #004e92 !important;
+    border-radius: 14px;
+    width: 400px;
+    outline: none;
+}
+
+.form-header
+{
+    border: 2px solid #004e92;
+    width:100%;
+    background: #004e92;
+   
+    
+}
+
